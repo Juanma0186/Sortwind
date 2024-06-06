@@ -3,8 +3,6 @@ import { LangConfig } from "./extension";
 
 export interface Options {
   shouldRemoveDuplicates: boolean;
-  // shouldPrependCustomClasses: boolean;
-  // customTailwindPrefix: string;
   separator?: RegExp;
   replacement?: string;
 }
@@ -27,107 +25,12 @@ export const sortClassString = (
     classArray = removeDuplicates(classArray);
   }
 
-  // prepend custom tailwind prefix to all tailwind sortOrder-classes
   const sortOrderClone = [...sortOrder];
-  // if (options.customTailwindPrefix.length > 0) {
-  // 	for (var i = 0; i < sortOrderClone.length; i++) {
-  // 		sortOrderClone[i] = options.customTailwindPrefix + sortOrderClone[i];
-  // 	}
-  // }
 
   classArray = sortClassArray(classArray, sortOrderClone);
 
   return classArray.join(options.replacement || " ").trim();
 };
-
-// const sortClassArray = (
-//   classArray: string[],
-//   sortOrder: string[]
-// ): string[] => {
-//   // Función para obtener el prefijo de la clase
-//   const getClassPrefix = (cls: string): string => {
-//     const lastColonIndex = cls.lastIndexOf(":");
-//     return lastColonIndex !== -1 ? cls.slice(0, lastColonIndex) : "";
-//   };
-
-//   // Función para obtener la clase sin el prefijo
-//   const getBaseClass = (cls: string): string => {
-//     const lastColonIndex = cls.lastIndexOf(":");
-//     return lastColonIndex !== -1 ? cls.slice(lastColonIndex + 1) : cls;
-//   };
-
-//   // Separar las clases en tres grupos: sin prefijo y no en sortOrder, en sortOrder, y con prefijo
-//   const noPrefixNotInOrder = classArray.filter(
-//     (cls) => getClassPrefix(cls) === "" && !sortOrder.includes(cls)
-//   );
-//   const inOrder = classArray.filter((cls) => sortOrder.includes(cls));
-//   const withPrefixNotInOrder = classArray.filter(
-//     (cls) => getClassPrefix(cls) !== "" && !sortOrder.includes(cls)
-//   );
-
-//   // Agrupar las clases con prefijo que no están en sortOrder por su prefijo
-//   const prefixGroups: { [key: string]: string[] } = {};
-//   withPrefixNotInOrder.forEach((cls) => {
-//     const prefix = getClassPrefix(cls);
-//     if (!prefixGroups[prefix]) {
-//       prefixGroups[prefix] = [];
-//     }
-//     prefixGroups[prefix].push(cls);
-//   });
-
-//   // Ordenar las clases con prefijo según el sortOrder
-//   const sortedWithPrefix = Object.values(prefixGroups)
-//     .map((group) => {
-//       return group.sort((a, b) => {
-//         const baseClassA = getBaseClass(a);
-//         const baseClassB = getBaseClass(b);
-//         return sortOrder.indexOf(baseClassA) - sortOrder.indexOf(baseClassB);
-//       });
-//     })
-//     .flat();
-
-//   window.showInformationMessage(
-//     "sortedWithPrefix" +
-//       JSON.stringify([...noPrefixNotInOrder, ...inOrder, ...sortedWithPrefix])
-//   );
-
-//   // Unir los grupos en el orden deseado
-//   return [...noPrefixNotInOrder, ...inOrder, ...sortedWithPrefix];
-// };
-
-// const sortClassArray = (
-//   classArray: string[],
-//   sortOrder: string[]
-// ): string[] => {
-//   const noPrefixNoSortOrder = classArray.filter(
-//     (cls) => !sortOrder.includes(cls) && cls.indexOf(":") === -1
-//   );
-//   const noPrefixInSortOrder = classArray.filter(
-//     (cls) => sortOrder.includes(cls) && cls.indexOf(":") === -1
-//   );
-//   const withPrefix = classArray.filter(
-//     (cls) => cls.indexOf(":") !== -1 && !sortOrder.includes(cls)
-//   );
-
-//   const sortedWithPrefix = withPrefix.sort((a, b) => {
-//     const prefixA = a.slice(0, a.indexOf(":"));
-//     const prefixB = b.slice(0, b.indexOf(":"));
-//     const baseClassA = a.slice(a.indexOf(":") + 1);
-//     const baseClassB = b.slice(b.indexOf(":") + 1);
-//     return (
-//       sortOrder.indexOf(prefixA) - sortOrder.indexOf(prefixB) ||
-//       sortOrder.indexOf(baseClassA) - sortOrder.indexOf(baseClassB)
-//     );
-//   });
-
-//   return [
-//     ...noPrefixNoSortOrder,
-//     ...noPrefixInSortOrder.sort(
-//       (a, b) => sortOrder.indexOf(a) - sortOrder.indexOf(b)
-//     ),
-//     ...sortedWithPrefix,
-//   ];
-// };
 
 const sortClassArray = (
   classArray: string[],

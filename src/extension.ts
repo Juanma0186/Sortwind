@@ -15,11 +15,8 @@ const langConfig: { [key: string]: LangConfig | LangConfig[] } =
   config.get("sortwind.classRegex") || {};
 
 //Mostramos el langConfig por mensaje
-window.showInformationMessage(JSON.stringify(langConfig));
 
 const sortOrder = config.get("sortwind.order") || defaultOrder;
-
-window.showInformationMessage("Sort Order" + config.get("sortwind.order"));
 
 // const customTailwindPrefixConfig = config.get("sortwind.customTailwindPrefix");
 // const customTailwindPrefix =
@@ -48,14 +45,9 @@ export function activate(context: ExtensionContext) {
       const editorText = editor.document.getText();
       const editorLangId = editor.document.languageId;
 
-      window.showInformationMessage(editorLangId);
-
       const matchers = buildMatchers(
         langConfig[editorLangId] || langConfig["html"]
       );
-
-      window.showInformationMessage(JSON.stringify(langConfig[editorLangId]));
-      window.showInformationMessage("Matchers" + JSON.stringify(matchers));
 
       for (const matcher of matchers) {
         getTextMatch(matcher.regex, editorText, (text, startPosition) => {
@@ -67,8 +59,6 @@ export function activate(context: ExtensionContext) {
 
           const options = {
             shouldRemoveDuplicates,
-            // shouldPrependCustomClasses,
-            // customTailwindPrefix,
             separator: matcher.separator,
             replacement: matcher.replacement,
           };
@@ -93,6 +83,7 @@ export function activate(context: ExtensionContext) {
     context.subscriptions.push(
       workspace.onWillSaveTextDocument((_e) => {
         commands.executeCommand("sortwind.sortTailwindClasses");
+        window.showInformationMessage("Tailwind classes organized!");
       })
     );
   }

@@ -1,17 +1,11 @@
 export const defaultOrder = [
-  /* Aspect Ratio */
   "aspect-auto",
   "aspect-video",
   "aspect-square",
-
-  /* Container */
   "container",
   "mx-auto",
   "max-width",
   "min-width",
-
-  /* SIZE */
-
   "size-0",
   "size-px",
   "size-0.5",
@@ -47,7 +41,6 @@ export const defaultOrder = [
   "size-72",
   "size-80",
   "size-96",
-
   "size-1/2",
   "size-1/3",
   "size-2/3",
@@ -63,15 +56,12 @@ export const defaultOrder = [
   "size-3/6",
   "size-4/6",
   "size-5/6",
-
   "size-auto",
   "size-full",
   "size-screen",
   "size-min",
   "size-max",
   "size-fit",
-
-  /* Width */
   "w-0",
   "w-px",
   "w-0.5",
@@ -107,7 +97,6 @@ export const defaultOrder = [
   "w-72",
   "w-80",
   "w-96",
-
   "w-1/2",
   "w-1/3",
   "w-2/3",
@@ -134,22 +123,17 @@ export const defaultOrder = [
   "w-9/12",
   "w-10/12",
   "w-11/12",
-
   "w-auto",
   "w-full",
   "w-screen",
   "w-min",
   "w-max",
   "w-fit",
-
-  /* Min-Width */
   "min-w-0",
   "min-w-full",
   "min-w-min",
   "min-w-max",
   "min-w-fit",
-
-  /* Max-Width */
   "max-w-0",
   "max-w-none",
   "max-w-xs",
@@ -173,8 +157,6 @@ export const defaultOrder = [
   "max-w-screen-lg",
   "max-w-screen-xl",
   "max-w-screen-2xl",
-
-  /* Height */
   "h-0",
   "h-px",
   "h-0.5",
@@ -210,7 +192,6 @@ export const defaultOrder = [
   "h-72",
   "h-80",
   "h-96",
-
   "h-1/2",
   "h-1/3",
   "h-2/3",
@@ -226,23 +207,18 @@ export const defaultOrder = [
   "h-3/6",
   "h-4/6",
   "h-5/6",
-
   "h-auto",
   "h-full",
   "h-screen",
   "h-min",
   "h-max",
   "h-fit",
-
-  /* Min-Height */
   "min-h-0",
   "min-h-full",
   "min-h-screen",
   "min-h-min",
   "min-h-max",
   "min-h-fit",
-
-  /* Max-Height */
   "max-h-0",
   "max-h-px",
   "max-h-0.5",
@@ -278,15 +254,12 @@ export const defaultOrder = [
   "max-h-72",
   "max-h-80",
   "max-h-96",
-
   "max-h-none",
   "max-h-full",
   "max-h-screen",
   "max-h-min",
   "max-h-max",
   "max-h-fit",
-
-  /* Columns */
   "columns-1",
   "columns-2",
   "columns-3",
@@ -313,8 +286,6 @@ export const defaultOrder = [
   "columns-5xl",
   "columns-6xl",
   "columns-7xl",
-
-  /* Break After */
   "break-after-auto",
   "break-after-avoid",
   "break-after-all",
@@ -323,8 +294,6 @@ export const defaultOrder = [
   "break-after-left",
   "break-after-right",
   "break-after-column",
-
-  /* Break Before */
   "break-before-auto",
   "break-before-avoid",
   "break-before-all",
@@ -333,44 +302,28 @@ export const defaultOrder = [
   "break-before-left",
   "break-before-right",
   "break-before-column",
-
-  /* Break Inside */
   "break-inside-auto",
   "break-inside-avoid",
   "break-inside-avoid-page",
   "break-inside-avoid-column",
-
-  /* Box Decoration Break */
   "box-decoration-clone",
   "box-decoration-slice",
-
-  /* Box Sizing */
   "box-border",
   "box-content",
-
-  /* Floats */
   "float-right",
   "float-left",
   "float-none",
-
-  /* Clear */
   "clear-left",
   "clear-right",
   "clear-both",
   "clear-none",
-
-  /* Isolation */
   "isolate",
   "isolation-auto",
-
-  /* Object Fit */
   "object-contain",
   "object-cover",
   "object-fill",
   "object-none",
   "object-scale-down",
-
-  /* Object Position */
   "object-bottom",
   "object-center",
   "object-left",
@@ -380,8 +333,6 @@ export const defaultOrder = [
   "object-right-bottom",
   "object-right-top",
   "object-top",
-
-  /* Overflow */
   "overflow-auto",
   "overflow-hidden",
   "overflow-clip",
@@ -397,8 +348,6 @@ export const defaultOrder = [
   "overflow-y-visible",
   "overflow-x-scroll",
   "overflow-y-scroll",
-
-  /* Overscroll Behavior */
   "overscroll-auto",
   "overscroll-contain",
   "overscroll-none",
@@ -408,15 +357,11 @@ export const defaultOrder = [
   "overscroll-x-auto",
   "overscroll-x-contain",
   "overscroll-x-none",
-
-  /* Position */
   "static",
   "fixed",
   "absolute",
   "relative",
   "sticky",
-
-  /* Top / Right / Bottom / Left */
   "inset-px",
   "inset-x-px",
   "inset-y-px",
@@ -723,7 +668,6 @@ export const defaultOrder = [
   "right-96",
   "bottom-96",
   "left-96",
-
   "inset-auto",
   "inset-1/2",
   "inset-1/3",
@@ -732,7 +676,6 @@ export const defaultOrder = [
   "inset-2/4",
   "inset-3/4",
   "inset-full",
-
   "inset-x-auto",
   "inset-x-1/2",
   "inset-x-1/3",
@@ -741,7 +684,6 @@ export const defaultOrder = [
   "inset-x-2/4",
   "inset-x-3/4",
   "inset-x-full",
-
   "inset-y-auto",
   "inset-y-1/2",
   "inset-y-1/3",
@@ -750,7 +692,6 @@ export const defaultOrder = [
   "inset-y-2/4",
   "inset-y-3/4",
   "inset-y-full",
-
   "start-auto",
   "start-1/2",
   "start-1/3",
@@ -759,7 +700,6 @@ export const defaultOrder = [
   "start-2/4",
   "start-3/4",
   "start-full",
-
   "end-auto",
   "end-1/2",
   "end-1/3",
@@ -768,7 +708,6 @@ export const defaultOrder = [
   "end-2/4",
   "end-3/4",
   "end-full",
-
   "top-auto",
   "top-1/2",
   "top-1/3",
@@ -777,7 +716,6 @@ export const defaultOrder = [
   "top-2/4",
   "top-3/4",
   "top-full",
-
   "right-auto",
   "right-1/2",
   "right-1/3",
@@ -786,7 +724,6 @@ export const defaultOrder = [
   "right-2/4",
   "right-3/4",
   "right-full",
-
   "bottom-auto",
   "bottom-1/2",
   "bottom-1/3",
@@ -795,7 +732,6 @@ export const defaultOrder = [
   "bottom-2/4",
   "bottom-3/4",
   "bottom-full",
-
   "left-auto",
   "left-1/2",
   "left-1/3",
@@ -804,13 +740,9 @@ export const defaultOrder = [
   "left-2/4",
   "left-3/4",
   "left-full",
-
-  /* Visibility */
   "visible",
   "invisible",
   "collapse",
-
-  /* Z-Index */
   "z-0",
   "z-10",
   "z-20",
@@ -818,10 +750,6 @@ export const defaultOrder = [
   "z-40",
   "z-50",
   "z-auto",
-
-  // MARK: Flexbox & Grid
-
-  /* Display */
   "block",
   "inline-block",
   "inline",
@@ -843,8 +771,6 @@ export const defaultOrder = [
   "contents",
   "list-item",
   "hidden",
-
-  /* Flex Basis */
   "basis-0",
   "basis-1",
   "basis-2",
@@ -908,33 +834,21 @@ export const defaultOrder = [
   "basis-10/12",
   "basis-11/12",
   "basis-full",
-
-  /* Flex Direction */
   "flex-row",
   "flex-row-reverse",
   "flex-col",
   "flex-col-reverse",
-
-  /* Flex Wrap */
   "flex-wrap",
   "flex-wrap-reverse",
   "flex-nowrap",
-
-  /* Flex */
   "flex-1",
   "flex-auto",
   "flex-initial",
   "flex-none",
-
-  /* Flex Grow */
   "grow",
   "grow-0",
-
-  /* Flex Shrink */
   "shrink",
   "shrink-0",
-
-  /* Order */
   "order-1",
   "order-2",
   "order-3",
@@ -950,8 +864,6 @@ export const defaultOrder = [
   "order-first",
   "order-last",
   "order-none",
-
-  /* Grid Template Columns */
   "grid-cols-1",
   "grid-cols-2",
   "grid-cols-3",
@@ -965,8 +877,6 @@ export const defaultOrder = [
   "grid-cols-11",
   "grid-cols-12",
   "grid-cols-none",
-
-  /* Grid Column Start / End */
   "col-auto",
   "col-span-1",
   "col-span-2",
@@ -1009,8 +919,6 @@ export const defaultOrder = [
   "col-end-12",
   "col-end-13",
   "col-end-auto",
-
-  /* Grid Template Rows */
   "grid-rows-1",
   "grid-rows-2",
   "grid-rows-3",
@@ -1018,8 +926,6 @@ export const defaultOrder = [
   "grid-rows-5",
   "grid-rows-6",
   "grid-rows-none",
-
-  /* Grid Row Start / End */
   "row-auto",
   "row-span-1",
   "row-span-2",
@@ -1044,27 +950,19 @@ export const defaultOrder = [
   "row-end-6",
   "row-end-7",
   "row-end-auto",
-
-  /* Grid Auto Flow */
   "grid-flow-row",
   "grid-flow-col",
   "grid-flow-dense",
   "grid-flow-row-dense",
   "grid-flow-col-dense",
-
-  /* Grid Auto Columns */
   "auto-cols-auto",
   "auto-cols-min",
   "auto-cols-max",
   "auto-cols-fr",
-
-  /* Grid Auto Rows */
   "auto-rows-auto",
   "auto-rows-min",
   "auto-rows-max",
   "auto-rows-fr",
-
-  /* Justify Content */
   "justify-normal",
   "justify-start",
   "justify-end",
@@ -1073,21 +971,15 @@ export const defaultOrder = [
   "justify-around",
   "justify-evenly",
   "justify-stretch",
-
-  /* Justify Items */
   "justify-items-start",
   "justify-items-end",
   "justify-items-center",
   "justify-items-stretch",
-
-  /* Justify Self */
   "justify-self-auto",
   "justify-self-start",
   "justify-self-end",
   "justify-self-center",
   "justify-self-stretch",
-
-  /* Align Content */
   "content-normal",
   "content-center",
   "content-start",
@@ -1097,23 +989,17 @@ export const defaultOrder = [
   "content-evenly",
   "content-baseline",
   "content-stretch",
-
-  /* Align Items */
   "items-start",
   "items-end",
   "items-center",
   "items-baseline",
   "items-stretch",
-
-  /* Align Self */
   "self-auto",
   "self-start",
   "self-end",
   "self-center",
   "self-stretch",
   "self-baseline",
-
-  /* Place Content */
   "place-content-center",
   "place-content-start",
   "place-content-end",
@@ -1122,22 +1008,16 @@ export const defaultOrder = [
   "place-content-evenly",
   "place-content-baseline",
   "place-content-stretch",
-
-  /* Place Items */
   "place-items-start",
   "place-items-end",
   "place-items-center",
   "place-items-baseline",
   "place-items-stretch",
-
-  /* Place Self */
   "place-self-auto",
   "place-self-start",
   "place-self-end",
   "place-self-center",
   "place-self-stretch",
-
-  /* Gap */
   "gap-0",
   "gap-px",
   "gap-0.5",
@@ -1173,7 +1053,6 @@ export const defaultOrder = [
   "gap-72",
   "gap-80",
   "gap-96",
-
   "gap-x-0",
   "gap-x-px",
   "gap-x-0.5",
@@ -1209,7 +1088,6 @@ export const defaultOrder = [
   "gap-x-72",
   "gap-x-80",
   "gap-x-96",
-
   "gap-y-0",
   "gap-y-px",
   "gap-y-0.5",
@@ -1245,11 +1123,6 @@ export const defaultOrder = [
   "gap-y-72",
   "gap-y-80",
   "gap-y-96",
-
-  // MARK: Spacing
-
-  /* Padding */
-
   "p-0",
   "p-px",
   "p-0.5",
@@ -1285,7 +1158,6 @@ export const defaultOrder = [
   "p-72",
   "p-80",
   "p-96",
-
   "px-0",
   "px-px",
   "px-0.5",
@@ -1321,7 +1193,6 @@ export const defaultOrder = [
   "px-72",
   "px-80",
   "px-96",
-
   "py-0",
   "py-px",
   "py-0.5",
@@ -1357,7 +1228,6 @@ export const defaultOrder = [
   "py-72",
   "py-80",
   "py-96",
-
   "ps-0",
   "ps-px",
   "ps-0.5",
@@ -1393,7 +1263,6 @@ export const defaultOrder = [
   "ps-72",
   "ps-80",
   "ps-96",
-
   "pe-0",
   "pe-px",
   "pe-0.5",
@@ -1429,7 +1298,6 @@ export const defaultOrder = [
   "pe-72",
   "pe-80",
   "pe-96",
-
   "pt-0",
   "pt-px",
   "pt-0.5",
@@ -1465,7 +1333,6 @@ export const defaultOrder = [
   "pt-72",
   "pt-80",
   "pt-96",
-
   "pr-0",
   "pr-px",
   "pr-0.5",
@@ -1501,7 +1368,6 @@ export const defaultOrder = [
   "pr-72",
   "pr-80",
   "pr-96",
-
   "pb-0",
   "pb-px",
   "pb-0.5",
@@ -1537,7 +1403,6 @@ export const defaultOrder = [
   "pb-72",
   "pb-80",
   "pb-96",
-
   "pl-0",
   "pl-px",
   "pl-0.5",
@@ -1573,8 +1438,6 @@ export const defaultOrder = [
   "pl-72",
   "pl-80",
   "pl-96",
-
-  /* Margin */
   "m-0",
   "m-px",
   "m-0.5",
@@ -1610,7 +1473,6 @@ export const defaultOrder = [
   "m-72",
   "m-80",
   "m-96",
-
   "mx-0",
   "mx-px",
   "mx-0.5",
@@ -1646,7 +1508,6 @@ export const defaultOrder = [
   "mx-72",
   "mx-80",
   "mx-96",
-
   "my-0",
   "my-px",
   "my-0.5",
@@ -1682,7 +1543,6 @@ export const defaultOrder = [
   "my-72",
   "my-80",
   "my-96",
-
   "ms-0",
   "ms-px",
   "ms-0.5",
@@ -1718,7 +1578,6 @@ export const defaultOrder = [
   "ms-72",
   "ms-80",
   "ms-96",
-
   "me-0",
   "me-px",
   "me-0.5",
@@ -1754,7 +1613,6 @@ export const defaultOrder = [
   "me-72",
   "me-80",
   "me-96",
-
   "mt-0",
   "mt-px",
   "mt-0.5",
@@ -1790,7 +1648,6 @@ export const defaultOrder = [
   "mt-72",
   "mt-80",
   "mt-96",
-
   "mr-0",
   "mr-px",
   "mr-0.5",
@@ -1826,7 +1683,6 @@ export const defaultOrder = [
   "mr-72",
   "mr-80",
   "mr-96",
-
   "mb-0",
   "mb-px",
   "mb-0.5",
@@ -1862,7 +1718,6 @@ export const defaultOrder = [
   "mb-72",
   "mb-80",
   "mb-96",
-
   "ml-0",
   "ml-px",
   "ml-0.5",
@@ -1898,9 +1753,6 @@ export const defaultOrder = [
   "ml-72",
   "ml-80",
   "ml-96",
-
-  /* Space Between */
-
   "space-x-0",
   "space-x-px",
   "space-x-0.5",
@@ -1936,7 +1788,6 @@ export const defaultOrder = [
   "space-x-72",
   "space-x-80",
   "space-x-96",
-
   "space-y-0",
   "space-y-px",
   "space-y-0.5",
@@ -1972,18 +1823,11 @@ export const defaultOrder = [
   "space-y-72",
   "space-y-80",
   "space-y-96",
-
   "space-x-reverse",
   "space-y-reverse",
-
-  // MARK: Typography
-
-  /* Font Family */
   "font-sans",
   "font-serif",
   "font-mono",
-
-  /* Font Size */
   "text-xs",
   "text-sm",
   "text-base",
@@ -1997,16 +1841,10 @@ export const defaultOrder = [
   "text-7xl",
   "text-8xl",
   "text-9xl",
-
-  /* Font Smoothing */
   "antialiased",
   "subpixel-antialiased",
-
-  /* Font Style */
   "italic",
   "not-italic",
-
-  /* Font Weight */
   "font-thin",
   "font-extralight",
   "font-light",
@@ -2016,8 +1854,6 @@ export const defaultOrder = [
   "font-bold",
   "font-extrabold",
   "font-black",
-
-  /* Font Variant Numeric */
   "normal-nums",
   "ordinal",
   "slashed-zero",
@@ -2027,16 +1863,12 @@ export const defaultOrder = [
   "tabular-nums",
   "diagonal-fractions",
   "stacked-fractions",
-
-  /* Letter Spacing */
   "tracking-tighter",
   "tracking-tight",
   "tracking-normal",
   "tracking-wide",
   "tracking-wider",
   "tracking-widest",
-
-  /* Line Clamp */
   "line-clamp-1",
   "line-clamp-2",
   "line-clamp-3",
@@ -2044,8 +1876,6 @@ export const defaultOrder = [
   "line-clamp-5",
   "line-clamp-6",
   "line-clamp-none",
-
-  /* Line Height */
   "leading-3",
   "leading-4",
   "leading-5",
@@ -2060,28 +1890,18 @@ export const defaultOrder = [
   "leading-normal",
   "leading-relaxed",
   "leading-loose",
-
-  /* List Style Image */
   "list-image-none",
-
-  /* List Style Position */
   "list-inside",
   "list-outside",
-
-  /* List Style Type */
   "list-none",
   "list-disc",
   "list-decimal",
-
-  /* Text Align */
   "text-left",
   "text-center",
   "text-right",
   "text-justify",
   "text-start",
   "text-end",
-
-  /* Text Color */
   "text-inherit",
   "text-current",
   "text-transparent",
@@ -2329,14 +2149,10 @@ export const defaultOrder = [
   "text-rose-800",
   "text-rose-900",
   "text-rose-950",
-
-  /* Text Decoration */
   "underline",
   "overline",
   "line-through",
   "no-underline",
-
-  /* Text Decoration Color */
   "decoration-inherit",
   "decoration-current",
   "decoration-transparent",
@@ -2584,15 +2400,11 @@ export const defaultOrder = [
   "decoration-rose-800",
   "decoration-rose-900",
   "decoration-rose-950",
-
-  /* Text Decoration Style */
   "decoration-solid",
   "decoration-double",
   "decoration-dotted",
   "decoration-dashed",
   "decoration-wavy",
-
-  /* Text Decoration Thickness */
   "decoration-auto",
   "decoration-from-font",
   "decoration-0",
@@ -2600,27 +2412,19 @@ export const defaultOrder = [
   "decoration-2",
   "decoration-4",
   "decoration-8",
-
-  /* Text Underline Offset */
   "underline-offset-auto",
   "underline-offset-0",
   "underline-offset-1",
   "underline-offset-2",
   "underline-offset-4",
   "underline-offset-8",
-
-  /* Text Transform */
   "uppercase",
   "lowercase",
   "capitalize",
   "normal-case",
-
-  /* Text Overflow */
   "truncate",
   "text-ellipsis",
   "text-clip",
-
-  /* Text Indent */
   "indent-0",
   "indent-px",
   "indent-0.5",
@@ -2656,8 +2460,6 @@ export const defaultOrder = [
   "indent-72",
   "indent-80",
   "indent-96",
-
-  /* Vertical Align */
   "align-baseline",
   "align-top",
   "align-middle",
@@ -2666,43 +2468,27 @@ export const defaultOrder = [
   "align-text-bottom",
   "align-sub",
   "align-super",
-
-  /* Whitespace */
   "whitespace-normal",
   "whitespace-nowrap",
   "whitespace-pre",
   "whitespace-pre-line",
   "whitespace-pre-wrap",
   "whitespace-break-spaces",
-
-  /* Word Break */
   "break-normal",
   "break-words",
   "break-all",
   "break-keep",
-
-  /* Hyphens */
   "hyphens-none",
   "hyphens-manual",
   "hyphens-auto",
-
-  /* Content */
   "content-none",
-
-  // MARK: Backgrounds
-
-  /* Background Attachment */
   "bg-fixed",
   "bg-local",
   "bg-scroll",
-
-  /* Background Clip */
   "bg-clip-border",
   "bg-clip-padding",
   "bg-clip-content",
   "bg-clip-text",
-
-  /* Background Color */
   "bg-inherit",
   "bg-current",
   "bg-transparent",
@@ -2950,13 +2736,9 @@ export const defaultOrder = [
   "bg-rose-800",
   "bg-rose-900",
   "bg-rose-950",
-
-  /* Background Origin */
   "bg-origin-border",
   "bg-origin-padding",
   "bg-origin-content",
-
-  /* Background Position */
   "bg-bottom",
   "bg-center",
   "bg-left",
@@ -2966,21 +2748,15 @@ export const defaultOrder = [
   "bg-right-bottom",
   "bg-right-top",
   "bg-top",
-
-  /* Background Repeat */
   "bg-repeat",
   "bg-no-repeat",
   "bg-repeat-x",
   "bg-repeat-y",
   "bg-repeat-round",
   "bg-repeat-space",
-
-  /* Background Size */
   "bg-auto",
   "bg-cover",
   "bg-contain",
-
-  /* Background Image */
   "bg-none",
   "bg-gradient-to-t",
   "bg-gradient-to-tr",
@@ -2990,16 +2766,10 @@ export const defaultOrder = [
   "bg-gradient-to-bl",
   "bg-gradient-to-l",
   "bg-gradient-to-tl",
-
-  /* Gradient Color Stops */
   "from-inherit",
   "from-current",
   "from-transparent",
   "from-black",
-
-  // MARK: Borders
-
-  /* Border Radius */
   "rounded-none",
   "rounded-sm",
   "rounded",
@@ -3063,7 +2833,6 @@ export const defaultOrder = [
   "rounded-l-2xl",
   "rounded-l-3xl",
   "rounded-l-full",
-
   "rounded-ss-none",
   "rounded-ss-sm",
   "rounded-ss",
@@ -3100,7 +2869,6 @@ export const defaultOrder = [
   "rounded-es-2xl",
   "rounded-es-3xl",
   "rounded-es-full",
-
   "rounded-tl-none",
   "rounded-tl-sm",
   "rounded-tl",
@@ -3119,7 +2887,6 @@ export const defaultOrder = [
   "rounded-tr-2xl",
   "rounded-tr-3xl",
   "rounded-tr-full",
-
   "rounded-br-none",
   "rounded-br-sm",
   "rounded-br",
@@ -3138,8 +2905,6 @@ export const defaultOrder = [
   "rounded-bl-2xl",
   "rounded-bl-3xl",
   "rounded-bl-full",
-
-  /* Border Width */
   "border-0",
   "border-2",
   "border-4",
@@ -3185,8 +2950,6 @@ export const defaultOrder = [
   "border-l-4",
   "border-l-8",
   "border-l",
-
-  /* Border Color */
   "border-inherit",
   "border-current",
   "border-transparent",
@@ -3434,7 +3197,6 @@ export const defaultOrder = [
   "border-rose-800",
   "border-rose-900",
   "border-rose-950",
-
   "border-x-inherit",
   "border-x-current",
   "border-x-transparent",
@@ -3682,7 +3444,6 @@ export const defaultOrder = [
   "border-x-rose-800",
   "border-x-rose-900",
   "border-x-rose-950",
-
   "border-y-inherit",
   "border-y-current",
   "border-y-transparent",
@@ -3930,7 +3691,6 @@ export const defaultOrder = [
   "border-y-rose-800",
   "border-y-rose-900",
   "border-y-rose-950",
-
   "border-s-inherit",
   "border-s-current",
   "border-s-transparent",
@@ -4178,7 +3938,6 @@ export const defaultOrder = [
   "border-s-rose-800",
   "border-s-rose-900",
   "border-s-rose-950",
-
   "border-e-inherit",
   "border-e-current",
   "border-e-transparent",
@@ -4426,7 +4185,6 @@ export const defaultOrder = [
   "border-e-rose-800",
   "border-e-rose-900",
   "border-e-rose-950",
-
   "border-t-inherit",
   "border-t-current",
   "border-t-transparent",
@@ -4674,7 +4432,6 @@ export const defaultOrder = [
   "border-t-rose-800",
   "border-t-rose-900",
   "border-t-rose-950",
-
   "border-r-inherit",
   "border-r-current",
   "border-r-transparent",
@@ -4922,7 +4679,6 @@ export const defaultOrder = [
   "border-r-rose-800",
   "border-r-rose-900",
   "border-r-rose-950",
-
   "border-b-inherit",
   "border-b-current",
   "border-b-transparent",
@@ -5170,7 +4926,6 @@ export const defaultOrder = [
   "border-b-rose-800",
   "border-b-rose-900",
   "border-b-rose-950",
-
   "border-l-inherit",
   "border-l-current",
   "border-l-transparent",
@@ -5418,16 +5173,12 @@ export const defaultOrder = [
   "border-l-rose-800",
   "border-l-rose-900",
   "border-l-rose-950",
-
-  /* Border Style */
   "border-solid",
   "border-dashed",
   "border-dotted",
   "border-double",
   "border-hidden",
   "border-none",
-
-  /* Divide Width */
   "divide-x-0",
   "divide-x-2",
   "divide-x-4",
@@ -5440,8 +5191,6 @@ export const defaultOrder = [
   "divide-y-8",
   "divide-y",
   "divide-y-reverse",
-
-  /* Divide Color */
   "divide-inherit",
   "divide-current",
   "divide-transparent",
@@ -5689,22 +5438,16 @@ export const defaultOrder = [
   "divide-rose-800",
   "divide-rose-900",
   "divide-rose-950",
-
-  /* Divide Style */
   "divide-solid",
   "divide-dashed",
   "divide-dotted",
   "divide-double",
   "divide-none",
-
-  /* Outline Width */
   "outline-0",
   "outline-1",
   "outline-2",
   "outline-4",
   "outline-8",
-
-  /* Outline Color */
   "outline-inherit",
   "outline-current",
   "outline-transparent",
@@ -5952,22 +5695,16 @@ export const defaultOrder = [
   "outline-rose-800",
   "outline-rose-900",
   "outline-rose-950",
-
-  /* Outline Style */
   "outline-none",
   "outline",
   "outline-dashed",
   "outline-dotted",
   "outline-double",
-
-  /* Outline Offset */
   "outline-offset-0",
   "outline-offset-1",
   "outline-offset-2",
   "outline-offset-4",
   "outline-offset-8",
-
-  /* Ring Width */
   "ring-0",
   "ring-1",
   "ring-2",
@@ -5975,8 +5712,6 @@ export const defaultOrder = [
   "ring-4",
   "ring-8",
   "ring-inset",
-
-  /* Ring Color */
   "ring-inherit",
   "ring-current",
   "ring-transparent",
@@ -6224,15 +5959,11 @@ export const defaultOrder = [
   "ring-rose-800",
   "ring-rose-900",
   "ring-rose-950",
-
-  /* Ring Offset Width */
   "ring-offset-0",
   "ring-offset-1",
   "ring-offset-2",
   "ring-offset-4",
   "ring-offset-8",
-
-  /* Ring Offset Color */
   "ring-offset-inherit",
   "ring-offset-current",
   "ring-offset-transparent",
@@ -6480,10 +6211,6 @@ export const defaultOrder = [
   "ring-offset-rose-800",
   "ring-offset-rose-900",
   "ring-offset-rose-950",
-
-  // MARK: Effects
-
-  /* Box Shadow */
   "shadow-sm",
   "shadow",
   "shadow-md",
@@ -6492,8 +6219,6 @@ export const defaultOrder = [
   "shadow-2xl",
   "shadow-inner",
   "shadow-none",
-
-  /* Box Shadow Color */
   "shadow-inherit",
   "shadow-current",
   "shadow-transparent",
@@ -6741,8 +6466,6 @@ export const defaultOrder = [
   "shadow-rose-800",
   "shadow-rose-900",
   "shadow-rose-950",
-
-  /* Opacity */
   "opacity-0",
   "opacity-5",
   "opacity-10",
@@ -6758,8 +6481,6 @@ export const defaultOrder = [
   "opacity-90",
   "opacity-95",
   "opacity-100",
-
-  /* Mix Blend Mode */
   "mix-blend-normal",
   "mix-blend-multiply",
   "mix-blend-screen",
@@ -6777,8 +6498,6 @@ export const defaultOrder = [
   "mix-blend-color",
   "mix-blend-luminosity",
   "mix-blend-plus-lighter",
-
-  /* Background Blend Mode */
   "bg-blend-normal",
   "bg-blend-multiply",
   "bg-blend-screen",
@@ -6795,10 +6514,6 @@ export const defaultOrder = [
   "bg-blend-saturation",
   "bg-blend-color",
   "bg-blend-luminosity",
-
-  // MARK: Filters
-
-  /* Blur */
   "blur-none",
   "blur-sm",
   "blur",
@@ -6807,8 +6522,6 @@ export const defaultOrder = [
   "blur-xl",
   "blur-2xl",
   "blur-3xl",
-
-  /* Brightness */
   "brightness-0",
   "brightness-50",
   "brightness-75",
@@ -6820,8 +6533,6 @@ export const defaultOrder = [
   "brightness-125",
   "brightness-150",
   "brightness-200",
-
-  /* Contrast */
   "contrast-0",
   "contrast-50",
   "contrast-75",
@@ -6829,8 +6540,6 @@ export const defaultOrder = [
   "contrast-125",
   "contrast-150",
   "contrast-200",
-
-  /* Drop Shadow */
   "drop-shadow-sm",
   "drop-shadow",
   "drop-shadow-md",
@@ -6838,35 +6547,23 @@ export const defaultOrder = [
   "drop-shadow-xl",
   "drop-shadow-2xl",
   "drop-shadow-none",
-
-  /* Grayscale */
   "grayscale-0",
   "grayscale",
-
-  /* Hue Rotate */
   "hue-rotate-0",
   "hue-rotate-15",
   "hue-rotate-30",
   "hue-rotate-60",
   "hue-rotate-90",
   "hue-rotate-180",
-
-  /* Invert */
   "invert-0",
   "invert",
-
-  /* Saturate */
   "saturate-0",
   "saturate-50",
   "saturate-100",
   "saturate-150",
   "saturate-200",
-
-  /* Sepia */
   "sepia-0",
   "sepia",
-
-  /* Backdrop Blur */
   "backdrop-blur-none",
   "backdrop-blur-sm",
   "backdrop-blur",
@@ -6875,8 +6572,6 @@ export const defaultOrder = [
   "backdrop-blur-xl",
   "backdrop-blur-2xl",
   "backdrop-blur-3xl",
-
-  /* Backdrop Brightness */
   "backdrop-brightness-0",
   "backdrop-brightness-50",
   "backdrop-brightness-75",
@@ -6888,8 +6583,6 @@ export const defaultOrder = [
   "backdrop-brightness-125",
   "backdrop-brightness-150",
   "backdrop-brightness-200",
-
-  /* Backdrop Contrast */
   "backdrop-contrast-0",
   "backdrop-contrast-50",
   "backdrop-contrast-75",
@@ -6897,24 +6590,16 @@ export const defaultOrder = [
   "backdrop-contrast-125",
   "backdrop-contrast-150",
   "backdrop-contrast-200",
-
-  /* Backdrop Grayscale */
   "backdrop-grayscale-0",
   "backdrop-grayscale",
-
-  /* Backdrop Hue Rotate */
   "backdrop-hue-rotate-0",
   "backdrop-hue-rotate-15",
   "backdrop-hue-rotate-30",
   "backdrop-hue-rotate-60",
   "backdrop-hue-rotate-90",
   "backdrop-hue-rotate-180",
-
-  /* Backdrop Invert */
   "backdrop-invert-0",
   "backdrop-invert",
-
-  /* Backdrop Opacity */
   "backdrop-opacity-0",
   "backdrop-opacity-5",
   "backdrop-opacity-10",
@@ -6930,25 +6615,15 @@ export const defaultOrder = [
   "backdrop-opacity-90",
   "backdrop-opacity-95",
   "backdrop-opacity-100",
-
-  /* Backdrop Saturate */
   "backdrop-saturate-0",
   "backdrop-saturate-50",
   "backdrop-saturate-100",
   "backdrop-saturate-150",
   "backdrop-saturate-200",
-
-  /* Backdrop Sepia */
   "backdrop-sepia-0",
   "backdrop-sepia",
-
-  // MARK: Tables
-
-  /* Border Collapse */
   "border-collapse",
   "border-separate",
-
-  /* Border Spacing */
   "border-spacing-0",
   "border-spacing-px",
   "border-spacing-0.5",
@@ -6984,7 +6659,6 @@ export const defaultOrder = [
   "border-spacing-72",
   "border-spacing-80",
   "border-spacing-96",
-
   "border-spacing-x-0",
   "border-spacing-x-px",
   "border-spacing-x-0.5",
@@ -7020,7 +6694,6 @@ export const defaultOrder = [
   "border-spacing-x-72",
   "border-spacing-x-80",
   "border-spacing-x-96",
-
   "border-spacing-y-0",
   "border-spacing-y-px",
   "border-spacing-y-0.5",
@@ -7056,18 +6729,10 @@ export const defaultOrder = [
   "border-spacing-y-72",
   "border-spacing-y-80",
   "border-spacing-y-96",
-
-  /* Table Layout */
   "table-auto",
   "table-fixed",
-
-  /* Caption Side */
   "caption-top",
   "caption-bottom",
-
-  // MARK: Transitions & Animation
-
-  /* Transition Property */
   "transition-none",
   "transition-all",
   "transition",
@@ -7075,8 +6740,6 @@ export const defaultOrder = [
   "transition-opacity",
   "transition-shadow",
   "transition-transform",
-
-  /* Transition Duration */
   "duration-0",
   "duration-75",
   "duration-100",
@@ -7086,14 +6749,10 @@ export const defaultOrder = [
   "duration-500",
   "duration-700",
   "duration-1000",
-
-  /* Transition Timing Function */
   "ease-linear",
   "ease-in",
   "ease-out",
   "ease-in-out",
-
-  /* Transition Delay */
   "delay-0",
   "delay-75",
   "delay-100",
@@ -7103,17 +6762,11 @@ export const defaultOrder = [
   "delay-500",
   "delay-700",
   "delay-1000",
-
-  /* Animation */
   "animate-none",
   "animate-spin",
   "animate-ping",
   "animate-pulse",
   "animate-bounce",
-
-  // MARK: Transforms
-
-  /* Scale */
   "scale-0",
   "scale-50",
   "scale-75",
@@ -7144,8 +6797,6 @@ export const defaultOrder = [
   "scale-y-110",
   "scale-y-125",
   "scale-y-150",
-
-  /* Rotate */
   "rotate-0",
   "rotate-1",
   "rotate-2",
@@ -7155,8 +6806,6 @@ export const defaultOrder = [
   "rotate-45",
   "rotate-90",
   "rotate-180",
-
-  /* Translate */
   "translate-x-0",
   "translate-x-px",
   "translate-x-0.5",
@@ -7192,7 +6841,6 @@ export const defaultOrder = [
   "translate-x-72",
   "translate-x-80",
   "translate-x-96",
-
   "translate-y-0",
   "translate-y-px",
   "translate-y-0.5",
@@ -7228,7 +6876,6 @@ export const defaultOrder = [
   "translate-y-72",
   "translate-y-80",
   "translate-y-96",
-
   "translate-x-1/2",
   "translate-x-1/3",
   "translate-x-2/3",
@@ -7243,8 +6890,6 @@ export const defaultOrder = [
   "translate-y-2/4",
   "translate-y-3/4",
   "translate-y-full",
-
-  /* Skew */
   "skew-x-0",
   "skew-x-1",
   "skew-x-2",
@@ -7257,8 +6902,6 @@ export const defaultOrder = [
   "skew-y-3",
   "skew-y-6",
   "skew-y-12",
-
-  /* Transform Origin */
   "origin-center",
   "origin-top",
   "origin-top-right",
@@ -7268,10 +6911,6 @@ export const defaultOrder = [
   "origin-bottom-left",
   "origin-left",
   "origin-top-left",
-
-  // MARK: Interactivity
-
-  /* Accent Color */
   "accent-auto",
   "accent-inherit",
   "accent-current",
@@ -7520,11 +7159,7 @@ export const defaultOrder = [
   "accent-rose-800",
   "accent-rose-900",
   "accent-rose-950",
-
-  /* Appearance */
   "appearance-none",
-
-  /* Cursor */
   "cursor-auto",
   "cursor-default",
   "cursor-pointer",
@@ -7561,8 +7196,6 @@ export const defaultOrder = [
   "cursor-nwse-resize",
   "cursor-zoom-in",
   "cursor-zoom-out",
-
-  /* Caret Color */
   "caret-inherit",
   "caret-current",
   "caret-transparent",
@@ -7810,22 +7443,14 @@ export const defaultOrder = [
   "caret-rose-800",
   "caret-rose-900",
   "caret-rose-950",
-
-  /* Pointer Events */
   "pointer-events-none",
   "pointer-events-auto",
-
-  /* Resize */
   "resize-none",
   "resize-y",
   "resize-x",
   "resize",
-
-  /* Scroll Behavior */
   "scroll-auto",
   "scroll-smooth",
-
-  /* Scroll Margin */
   "scroll-m-0",
   "scroll-m-px",
   "scroll-m-0.5",
@@ -7861,7 +7486,6 @@ export const defaultOrder = [
   "scroll-m-72",
   "scroll-m-80",
   "scroll-m-96",
-
   "scroll-mx-0",
   "scroll-mx-px",
   "scroll-mx-0.5",
@@ -7897,7 +7521,6 @@ export const defaultOrder = [
   "scroll-mx-72",
   "scroll-mx-80",
   "scroll-mx-96",
-
   "scroll-my-0",
   "scroll-my-px",
   "scroll-my-0.5",
@@ -7933,7 +7556,6 @@ export const defaultOrder = [
   "scroll-my-72",
   "scroll-my-80",
   "scroll-my-96",
-
   "scroll-ms-0",
   "scroll-ms-px",
   "scroll-ms-0.5",
@@ -7969,7 +7591,6 @@ export const defaultOrder = [
   "scroll-ms-72",
   "scroll-ms-80",
   "scroll-ms-96",
-
   "scroll-me-0",
   "scroll-me-px",
   "scroll-me-0.5",
@@ -8005,7 +7626,6 @@ export const defaultOrder = [
   "scroll-me-72",
   "scroll-me-80",
   "scroll-me-96",
-
   "scroll-mt-0",
   "scroll-mt-px",
   "scroll-mt-0.5",
@@ -8041,7 +7661,6 @@ export const defaultOrder = [
   "scroll-mt-72",
   "scroll-mt-80",
   "scroll-mt-96",
-
   "scroll-mr-0",
   "scroll-mr-px",
   "scroll-mr-0.5",
@@ -8077,7 +7696,6 @@ export const defaultOrder = [
   "scroll-mr-72",
   "scroll-mr-80",
   "scroll-mr-96",
-
   "scroll-mb-0",
   "scroll-mb-px",
   "scroll-mb-0.5",
@@ -8113,7 +7731,6 @@ export const defaultOrder = [
   "scroll-mb-72",
   "scroll-mb-80",
   "scroll-mb-96",
-
   "scroll-ml-0",
   "scroll-ml-px",
   "scroll-ml-0.5",
@@ -8149,8 +7766,6 @@ export const defaultOrder = [
   "scroll-ml-72",
   "scroll-ml-80",
   "scroll-ml-96",
-
-  /* Scroll Padding */
   "scroll-p-0",
   "scroll-p-px",
   "scroll-p-0.5",
@@ -8186,7 +7801,6 @@ export const defaultOrder = [
   "scroll-p-72",
   "scroll-p-80",
   "scroll-p-96",
-
   "scroll-px-0",
   "scroll-px-px",
   "scroll-px-0.5",
@@ -8222,7 +7836,6 @@ export const defaultOrder = [
   "scroll-px-72",
   "scroll-px-80",
   "scroll-px-96",
-
   "scroll-py-0",
   "scroll-py-px",
   "scroll-py-0.5",
@@ -8258,7 +7871,6 @@ export const defaultOrder = [
   "scroll-py-72",
   "scroll-py-80",
   "scroll-py-96",
-
   "scroll-ps-0",
   "scroll-ps-px",
   "scroll-ps-0.5",
@@ -8294,7 +7906,6 @@ export const defaultOrder = [
   "scroll-ps-72",
   "scroll-ps-80",
   "scroll-ps-96",
-
   "scroll-pe-0",
   "scroll-pe-px",
   "scroll-pe-0.5",
@@ -8330,7 +7941,6 @@ export const defaultOrder = [
   "scroll-pe-72",
   "scroll-pe-80",
   "scroll-pe-96",
-
   "scroll-pt-0",
   "scroll-pt-px",
   "scroll-pt-0.5",
@@ -8366,7 +7976,6 @@ export const defaultOrder = [
   "scroll-pt-72",
   "scroll-pt-80",
   "scroll-pt-96",
-
   "scroll-pr-0",
   "scroll-pr-px",
   "scroll-pr-0.5",
@@ -8402,7 +8011,6 @@ export const defaultOrder = [
   "scroll-pr-72",
   "scroll-pr-80",
   "scroll-pr-96",
-
   "scroll-pb-0",
   "scroll-pb-px",
   "scroll-pb-0.5",
@@ -8438,7 +8046,6 @@ export const defaultOrder = [
   "scroll-pb-72",
   "scroll-pb-80",
   "scroll-pb-96",
-
   "scroll-pl-0",
   "scroll-pl-px",
   "scroll-pl-0.5",
@@ -8474,26 +8081,18 @@ export const defaultOrder = [
   "scroll-pl-72",
   "scroll-pl-80",
   "scroll-pl-96",
-
-  /* Scroll Snap Align */
   "snap-start",
   "snap-end",
   "snap-center",
   "snap-align-none",
-
-  /* Scroll Snap Stop */
   "snap-normal",
   "snap-always",
-
-  /* Scroll Snap Type */
   "snap-none",
   "snap-x",
   "snap-y",
   "snap-both",
   "snap-mandatory",
   "snap-proximity",
-
-  /* Touch Action */
   "touch-auto",
   "touch-none",
   "touch-pan-x",
@@ -8504,22 +8103,14 @@ export const defaultOrder = [
   "touch-pan-down",
   "touch-pinch-zoom",
   "touch-manipulation",
-
-  /* User Select */
   "select-none",
   "select-text",
   "select-all",
   "select-auto",
-
-  /* Will Change */
   "will-change-auto",
   "will-change-scroll",
   "will-change-contents",
   "will-change-transform",
-
-  // MARK: SVG
-
-  /* Fill */
   "fill-none",
   "fill-inherit",
   "fill-current",
@@ -8768,8 +8359,6 @@ export const defaultOrder = [
   "fill-rose-800",
   "fill-rose-900",
   "fill-rose-950",
-
-  /* Stroke */
   "stroke-none",
   "stroke-inherit",
   "stroke-current",
@@ -9018,18 +8607,10 @@ export const defaultOrder = [
   "stroke-rose-800",
   "stroke-rose-900",
   "stroke-rose-950",
-
-  /* Stroke Width */
   "stroke-0",
   "stroke-1",
   "stroke-2",
-
-  // MARK: Accessibility
-
-  /* Screen Readers */
   "sr-only",
   "not-sr-only",
-
-  /*Group */
   "group",
 ];
