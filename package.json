@@ -16,7 +16,13 @@
   "icon": "icon.png",
   "version": "0.0.1",
   "engines": {
-    "vscode": "1.89.1"
+    "vscode": "^1.89.1"
+  },
+  "publisher": "SortwindPartners",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Juanma0186/Sortwind.git"
   },
   "categories": [
     "Other"
