@@ -14,29 +14,14 @@ const config = workspace.getConfiguration();
 const langConfig: { [key: string]: LangConfig | LangConfig[] } =
   config.get("sortwind.classRegex") || {};
 
-//Mostramos el langConfig por mensaje
-
 const sortOrder = config.get("sortwind.order") || defaultOrder;
 
-// const customTailwindPrefixConfig = config.get("sortwind.customTailwindPrefix");
-// const customTailwindPrefix =
-//   typeof customTailwindPrefixConfig === "string"
-//     ? customTailwindPrefixConfig
-//     : "";
-
+// Eliminar duplicados
 const shouldRemoveDuplicatesConfig = config.get("sortwind.removeDuplicates");
 const shouldRemoveDuplicates =
   typeof shouldRemoveDuplicatesConfig === "boolean"
     ? shouldRemoveDuplicatesConfig
     : true;
-
-// const shouldPrependCustomClassesConfig = config.get(
-//   "sortwind.prependCustomClasses"
-// );
-// const shouldPrependCustomClasses =
-//   typeof shouldPrependCustomClassesConfig === "boolean"
-//     ? shouldPrependCustomClassesConfig
-//     : false;
 
 export function activate(context: ExtensionContext) {
   let disposable = commands.registerTextEditorCommand(
@@ -78,7 +63,7 @@ export function activate(context: ExtensionContext) {
 
   context.subscriptions.push(disposable);
 
-  // if runOnSave is enabled organize tailwind classes before saving
+  // Si runOnSave está activado, se ejecuta el comando al guardar el archivo
   if (config.get("sortwind.runOnSave")) {
     context.subscriptions.push(
       workspace.onWillSaveTextDocument((_e) => {

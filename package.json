@@ -1,7 +1,7 @@
 {
   "name": "sortwind",
-  "displayName": "SortWind",
-  "description": "SortWind is a TailwindCSS sortener.",
+  "displayName": "Sortwind",
+  "description": "Sortwind is a TailwindCSS sortener.",
   "keywords": [
     "tailwind",
     "tailwindcss",
@@ -56,8 +56,8 @@
           "sortwind.classRegex": {
             "type": "object",
             "default": {
-              "html": "\\bclass\\s*=\\s*[\\\"\\']([\\._a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\']",
-              "astro": "\\bclass\\s*=\\s*[\\\"\\']([\\._a-zA-Z0-9\\s\\-\\:\\/\\[\\],\\(\\)\\%]+)\\s*[\\\"\\']",
+              "html": "\\bclass\\s*=\\s*[\\\"\\']([\\._a-zA-Z0-9\\s\\-\\:\\/\\[\\],\\(\\)\\%\\#\\!\\*\\$\\|]+)\\s*[\\\"\\']",
+              "astro": "\\bclass\\s*=\\s*[\\\"\\']([\\._a-zA-Z0-9\\s\\-\\:\\/\\[\\],\\(\\)\\%\\#\\!\\*\\$\\|]+)\\s*[\\\"\\']",
               "css": "\\b@apply\\s+([\\._a-zA-Z0-9\\s\\-\\:\\/]+);",
               "javascript": [
                 "(?:\\b(?:class(?:Name)?|tw)\\s*=\\s*(?:(?:{([\\w\\d\\s!?_\\-:/${}()[\\]\"'`,]+)})|([\"'`][\\.\\w\\d\\s_\\-:/]+[\"'`])))",
